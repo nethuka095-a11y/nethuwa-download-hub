@@ -22,3 +22,7 @@ export default defineConfig(({mode}) => {
     },
   };
 });
+export default defineConfig({
+  base: '/nethuwa-download-hub/', // ඔයාගේ Repository එකේ නම මෙතනට දාන්න
+  plugins: [react()],
+})
